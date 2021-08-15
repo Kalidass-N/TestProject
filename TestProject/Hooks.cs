@@ -35,7 +35,7 @@ namespace TestProject
         {
             _objectContainer.RegisterTypeAs<PageClass, IPageInterface>();
         }
-        //after hooks
+     
         [AfterScenario]
         public void AfterScenario()
         {
